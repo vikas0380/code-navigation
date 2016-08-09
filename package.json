@@ -2,7 +2,7 @@
     "name": "code-navigation",
     "displayName": "Code Navigation",
     "description": "Visual Studio Code Navigation",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "vikas",
     "engines": {
         "vscode": "^1.0.0"
@@ -11,14 +11,16 @@
         "Other"
     ],
     "activationEvents": [
-    "*"
-],
+        "*"
+    ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
-        }]
+        "commands": [
+            {
+                "command": "extension.sayHello",
+                "title": "Hello World"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
