@@ -21,7 +21,8 @@ if (!this._statusBarItemBack) {
 
         this._statusBarItemBack.command="workbench.action.navigateBack";
         this._statusBarItemFwd.command="workbench.action.navigateForward";
-        
+        this._statusBarItemBack.tooltip="Back";
+        this._statusBarItemFwd.tooltip="Forward";
 
         this._statusBarItemBack.text="$(arrow-left)";
 

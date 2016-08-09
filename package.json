@@ -2,7 +2,7 @@
     "name": "code-navigation",
     "displayName": "Code Navigation",
     "description": "Visual Studio Code Navigation",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "vikas",
     "engines": {
         "vscode": "^1.0.0"
